@@ -1,0 +1,60 @@
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.13.0
+model_size_bytes: 357229
+model_uuid: 9d9fc0662a424860912f1b6d41b1098f
+signature:
+  inputs: '[{"type": "double", "name": "EXT_SOURCE_2", "required": true}, {"type":
+    "double", "name": "EXT_SOURCE_3", "required": true}, {"type": "double", "name":
+    "PAYMENT_RATE", "required": true}, {"type": "double", "name": "DAYS_BIRTH", "required":
+    true}, {"type": "double", "name": "EXT_SOURCE_1", "required": true}, {"type":
+    "double", "name": "DAYS_EMPLOYED", "required": true}, {"type": "double", "name":
+    "DAYS_REGISTRATION", "required": true}, {"type": "double", "name": "DAYS_ID_PUBLISH",
+    "required": true}, {"type": "double", "name": "INSTAL_DBD_MEAN", "required": true},
+    {"type": "double", "name": "ANNUITY_INCOME_PERC", "required": true}, {"type":
+    "double", "name": "AMT_ANNUITY", "required": true}, {"type": "double", "name":
+    "DAYS_LAST_PHONE_CHANGE", "required": true}, {"type": "double", "name": "ACTIVE_DAYS_CREDIT_UPDATE_MEAN",
+    "required": true}, {"type": "double", "name": "REGION_POPULATION_RELATIVE", "required":
+    true}, {"type": "double", "name": "INSTAL_DAYS_ENTRY_PAYMENT_MAX", "required":
+    true}, {"type": "double", "name": "INCOME_CREDIT_PERC", "required": true}, {"type":
+    "double", "name": "INSTAL_AMT_PAYMENT_MIN", "required": true}, {"type": "double",
+    "name": "CLOSED_DAYS_CREDIT_MAX", "required": true}, {"type": "double", "name":
+    "ACTIVE_DAYS_CREDIT_ENDDATE_MIN", "required": true}, {"type": "double", "name":
+    "PREV_APP_CREDIT_PERC_VAR", "required": true}, {"type": "double", "name": "INSTAL_DBD_MAX",
+    "required": true}, {"type": "double", "name": "INSTAL_DBD_SUM", "required": true},
+    {"type": "double", "name": "BURO_DAYS_CREDIT_VAR", "required": true}, {"type":
+    "double", "name": "CLOSED_DAYS_CREDIT_ENDDATE_MAX", "required": true}, {"type":
+    "double", "name": "ACTIVE_DAYS_CREDIT_MAX", "required": true}, {"type": "double",
+    "name": "INCOME_PER_PERSON", "required": true}, {"type": "double", "name": "PREV_HOUR_APPR_PROCESS_START_MEAN",
+    "required": true}, {"type": "double", "name": "BURO_AMT_CREDIT_MAX_OVERDUE_MEAN",
+    "required": true}, {"type": "double", "name": "CLOSED_AMT_CREDIT_SUM_MEAN", "required":
+    true}, {"type": "double", "name": "POS_NAME_CONTRACT_STATUS_Active_MEAN", "required":
+    true}, {"type": "double", "name": "ACTIVE_DAYS_CREDIT_VAR", "required": true},
+    {"type": "double", "name": "CLOSED_DAYS_CREDIT_UPDATE_MEAN", "required": true},
+    {"type": "double", "name": "PREV_CNT_PAYMENT_MEAN", "required": true}, {"type":
+    "double", "name": "PREV_APP_CREDIT_PERC_MEAN", "required": true}, {"type": "double",
+    "name": "INSTAL_AMT_PAYMENT_MEAN", "required": true}, {"type": "double", "name":
+    "INSTAL_DPD_MEAN", "required": true}, {"type": "double", "name": "PREV_AMT_ANNUITY_MIN",
+    "required": true}, {"type": "double", "name": "PREV_NAME_TYPE_SUITE_Unaccompanied_MEAN",
+    "required": true}, {"type": "double", "name": "INSTAL_AMT_INSTALMENT_MAX", "required":
+    true}, {"type": "double", "name": "HOUR_APPR_PROCESS_START", "required": true},
+    {"type": "double", "name": "TOTALAREA_MODE", "required": true}, {"type": "double",
+    "name": "INSTAL_PAYMENT_PERC_VAR", "required": true}, {"type": "double", "name":
+    "PREV_NAME_TYPE_SUITE_nan_MEAN", "required": true}, {"type": "double", "name":
+    "PREV_NAME_YIELD_GROUP_middle_MEAN", "required": true}, {"type": "double", "name":
+    "PREV_RATE_DOWN_PAYMENT_MEAN", "required": true}]'
+  outputs: '[{"type": "long", "name": "TARGET", "required": true}]'
+  params: null
+utc_time_created: '2026-04-19 07:29:00.019562'
